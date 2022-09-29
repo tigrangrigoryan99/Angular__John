@@ -1,2 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+// Zeroing
 @import "_nullstyle";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+
+// Variables
+$fonrFamily: "Heebo";
+$color: #21243d;
+$color_white: #ffffff;
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $fonrFamily;
+  color: $color;
+  background-color: $color_white;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+._container {
+  max-width: 856px;
+  padding: 0px 15px;
+  box-sizing: content-box;
+  margin: 0px auto;
+}
