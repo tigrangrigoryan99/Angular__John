@@ -1,0 +1,19 @@
+.page {
+  flex: 1 1 auto;
+  padding-top: 160px;
+}
+@media (max-width: 992px) {
+  .page {
+    padding-top: 130px;
+  }
+}
+@media (max-width: 667px) {
+  .page {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 375px) {
+  .page {
+    padding-top: 80px;
+  }
+}

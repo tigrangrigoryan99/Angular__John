@@ -8,17 +8,22 @@
             </div>      
             <nav class="menu__body" #body>
                 <ul class="menu__list">
-                    <li>
-                        <div class="menu__dropdown" dropdown>
+                    <li [routerLinkActive]="'active'"
+                        [routerLinkActiveOptions]="{exact:true}">
+                        <a [routerLink]="['']" class="menu__link">Home</a>
+                    </li>
+                    <li [routerLinkActive]="'active'">
+                        <a [routerLink]="['blog']" class="menu__link">Blog</a>
+                    </li>
+                    <li [routerLinkActive]="'active'">
+                        <div class="menu__dropdown" myDropdown>
                             <a class="menu__link">Works</a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-menu__link">Work</a>
-                                <a href="#" class="dropdown-menu__link">Designe</a>
+                                <a [routerLink]="['work']" class="dropdown-menu__link">Work</a>
+                                <a [routerLink]="['designe']" href="#" class="dropdown-menu__link">Designe</a>
                             </div>
                         </div>                       
                     </li>
-                    <li><a href="#" class="menu__link">Blog</a></li>
-                    <li><a href="#" class="menu__link">Contact</a></li>
                 </ul>
             </nav>
         </div>

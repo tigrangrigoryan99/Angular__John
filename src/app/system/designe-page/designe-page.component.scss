@@ -1,0 +1,160 @@
+.page__designe {
+    padding-bottom: 54px;
+}
+.designe {
+    &__content {
+
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: calc(50/34*100%);
+        margin-bottom: 30px;
+        max-width: 506px;
+
+        @media (max-width: 992px) {
+            margin-bottom: 25px;
+            line-height: calc(46/30*100%);
+        }
+
+        @media (max-width: 676px) {
+            max-width: 339px;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 375px) {
+            margin-bottom: 15px;
+        }
+    }
+    &__data {
+        display: flex;
+        align-items: center;
+        margin-bottom: 23px;
+
+        @media (max-width: 992px) {
+            margin-bottom: 18px;
+        }
+
+        @media (max-width: 676px) {
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 375px) {
+            margin-bottom: 10px;
+        }
+    }
+    &__date {
+        padding: 5px 10px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 900;
+        border-radius: 16px;
+        background-color: #FF7C7C;;
+        margin-right: 26px;
+
+        @media (max-width: 992px) {
+           font-size: 16px;
+           padding: 3px 8px;
+           margin-right: 23px;
+        }
+
+        @media (max-width: 676px) {
+            margin-right: 20px;
+        }
+
+    }
+    &__info {
+        font-size: 20px;
+        line-height: calc(29/20*100%);
+
+        @media (max-width: 992px) {
+            font-size: 18px;
+         }
+ 
+         @media (max-width: 676px) {
+            font-size: 17px;
+         }
+    }
+    &__text {
+        line-height: calc(24/16*100%);
+        margin-bottom: 46px;
+
+        @media (max-width: 992px) {
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 676px) {
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 375px) {
+            margin-bottom: 20px;
+        }
+    }
+    &__image {
+        padding: 0px 0px 67.5% 0px;
+    }
+}
+
+.page__heading {
+    padding-bottom: 30px;
+}
+.heading {
+    &__content {
+
+    }
+    &__title1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: calc(60/30*100%);
+
+        @media (max-width: 992px) {
+            font-size: 28px;
+            line-height: calc(58/28*100%);
+        }
+
+        @media (max-width: 676px) {
+            font-size: 26px;
+            line-height: calc(54/26*100%);
+        }
+    }
+    &__title2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: calc(60/24*100%);
+
+        @media (max-width: 992px) {
+            font-size: 22px;
+            line-height: calc(58/22*100%);
+        }
+
+        @media (max-width: 676px) {
+            font-size: 20px;
+            line-height: calc(54/20*100%);
+        }
+    }
+    &__text {
+        font-size: 16px;
+        line-height: calc(24/16*100%);
+        margin-bottom: 30px;
+
+        @media (max-width: 992px) {
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+
+        @media (max-width: 676px) {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+    }
+    &__images {
+        &>*:not(:last-child) {
+            margin-bottom: 27px;
+        }
+    }
+    &__image {
+        padding: 0px 0px 67.5% 0px;
+    }
+}
