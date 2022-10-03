@@ -1,0 +1,24 @@
+.notfound {
+  background-color: rgb(243, 224, 199);
+  height: 100%;
+  width: 100%;
+  padding-top: 150px;
+  min-width: 320px;
+}
+.notfound__content {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+.notfound__title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 150%;
+  color: red;
+}
+.notfound__text {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 200%;
+  color: red;
+}

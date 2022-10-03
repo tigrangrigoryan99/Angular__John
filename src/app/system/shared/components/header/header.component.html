@@ -10,17 +10,17 @@
                 <ul class="menu__list">
                     <li [routerLinkActive]="'active'"
                         [routerLinkActiveOptions]="{exact:true}">
-                        <a [routerLink]="['']" class="menu__link">Home</a>
+                        <a [routerLink]="['/system']" class="menu__link">Home</a>
                     </li>
                     <li [routerLinkActive]="'active'">
-                        <a [routerLink]="['blog']" class="menu__link">Blog</a>
+                        <a [routerLink]="['/system','blog']" class="menu__link">Blog</a>
                     </li>
                     <li [routerLinkActive]="'active'">
                         <div class="menu__dropdown" myDropdown>
                             <a class="menu__link">Works</a>
                             <div class="dropdown-menu">
-                                <a [routerLink]="['work']" class="dropdown-menu__link">Work</a>
-                                <a [routerLink]="['designe']" href="#" class="dropdown-menu__link">Designe</a>
+                                <a [routerLink]="['/system','work']" class="dropdown-menu__link">Work</a>
+                                <a [routerLink]="['/system','designe']" href="#" class="dropdown-menu__link">Designe</a>
                             </div>
                         </div>                       
                     </li>
